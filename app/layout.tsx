@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Manrope, Tajawal } from 'next/font/google';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { GlobalFetchFeedback } from '@/components/ui/GlobalFetchFeedback';
 import { LanguageProvider } from '@/lib/context/LanguageContext';
 import { Preloader } from '@/components/ui/Preloader';
@@ -108,6 +109,7 @@ export default function RootLayout({
           <GlobalFetchFeedback />
           <PWAInstallPrompt />
         </LanguageProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
