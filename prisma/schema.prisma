@@ -1,0 +1,86 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum AdminRole {
+  ADMIN
+  STAFF
+}
+
+enum ContactInquiryStatus {
+  PENDING
+  RESPONDED
+  CLOSED
+}
+
+model Subscriber {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
+
+model ContactInquiry {
+  id                 Int                  @id @default(autoincrement())
+  fullName           String
+  company            String
+  email              String
+  destinationCountry String
+  specifications     String
+  createdAt          DateTime             @default(now())
+  status             ContactInquiryStatus @default(PENDING)
+  replies            InquiryReply[]
+}
+
+model InquiryReply {
+  id          Int            @id @default(autoincrement())
+  inquiryId   Int
+  message     String
+  senderEmail String         @default("export@nilorigen.com")
+  status      String         @default("PENDING")
+  createdAt   DateTime       @default(now())
+  sentAt      DateTime?
+  inquiry     ContactInquiry @relation(fields: [inquiryId], references: [id], onDelete: Cascade)
+
+  @@index([inquiryId, createdAt])
+}
+
+model AdminUser {
+  id             Int       @id @default(autoincrement())
+  username       String    @unique
+  passwordHash   String
+  role           AdminRole @default(STAFF)
+  isActive       Boolean   @default(true)
+  sessionVersion Int       @default(0)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+}
+
+model AdminRateLimitBucket {
+  id        String   @id
+  count     Int      @default(0)
+  expiresAt DateTime
+
+  @@index([expiresAt])
+}
+
+model AdminAuditLog {
+  id            Int      @id @default(autoincrement())
+  actorId       Int?
+  actorUsername String
+  action        String
+  targetType    String
+  targetId      String?
+  details       String?
+  createdAt     DateTime @default(now())
+
+  @@index([actorId, createdAt])
+  @@index([createdAt])
+}

@@ -1,0 +1,17 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#073B2A"/>
+  <rect width="1200" height="630" fill="url(#paint0_radial)" fill-opacity="0.7"/>
+  <circle cx="1023" cy="110" r="220" fill="#C59B4A" fill-opacity="0.18"/>
+  <circle cx="220" cy="520" r="240" fill="#0A82EA" fill-opacity="0.14"/>
+  <rect x="80" y="80" width="1040" height="470" rx="28" fill="rgba(255,255,255,0.04)" stroke="#C59B4A" stroke-opacity="0.4"/>
+  <text x="600" y="280" text-anchor="middle" fill="#F8F6F0" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="64">Nilorigen Botanicals</text>
+  <text x="600" y="350" text-anchor="middle" fill="#DCC082" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="34">Egyptian Herbs &amp; Essential Oils Exporter</text>
+  <text x="600" y="420" text-anchor="middle" fill="#F8F6F0" font-family="Arial, Helvetica, sans-serif" font-size="26" opacity="0.85">From the Nile to the World</text>
+  <rect x="405" y="470" width="390" height="3" fill="#C59B4A" opacity="0.9"/>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 315) rotate(88.2057) scale(628.875 1088.03)">
+      <stop stop-color="#0F5A48"/>
+      <stop offset="1" stop-color="#073B2A"/>
+    </radialGradient>
+  </defs>
+</svg>

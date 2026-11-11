@@ -1,0 +1,11 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0D241F"/>
+  <rect x="64" y="62" width="1072" height="506" rx="30" fill="#163B36" stroke="#D9B35A" stroke-width="2"/>
+  <text x="108" y="198" fill="#F7F3E8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="4">BOTANICAL RANGE</text>
+  <text x="108" y="286" fill="#F7F3E8" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">Medicinal herbs</text>
+  <text x="108" y="368" fill="#D9B35A" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">Aromatic plants</text>
+  <text x="108" y="442" fill="#EAE6D9" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">Tailored ingredients for wellness, pharma and fragrance</text>
+  <rect x="108" y="480" width="280" height="10" rx="5" fill="#D9B35A"/>
+  <circle cx="930" cy="190" r="115" fill="#D9B35A" fill-opacity="0.18"/>
+  <circle cx="980" cy="224" r="65" fill="#F7F3E8" fill-opacity="0.08"/>
+</svg>

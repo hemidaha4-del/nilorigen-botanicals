@@ -1,0 +1,10 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0C261F"/>
+  <rect x="66" y="64" width="1068" height="502" rx="30" fill="#143A35" stroke="#D9B35A" stroke-width="2"/>
+  <text x="110" y="202" fill="#F7F3E8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="4">SUSTAINABILITY</text>
+  <text x="110" y="290" fill="#F7F3E8" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800">Responsible sourcing</text>
+  <text x="110" y="372" fill="#D9B35A" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800">for the future</text>
+  <text x="110" y="448" fill="#EAE6D9" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">Ethical practices, traceability and regenerative value</text>
+  <rect x="110" y="484" width="290" height="10" rx="5" fill="#D9B35A"/>
+  <circle cx="952" cy="210" r="118" fill="#D9B35A" fill-opacity="0.16"/>
+</svg>

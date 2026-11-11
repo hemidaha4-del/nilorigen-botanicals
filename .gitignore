@@ -1,0 +1,24 @@
+node_modules/
+.next/
+
+# Keep environment variables and credentials out of version control.
+.env*
+!.env.example
+
+# Local database files.
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Generated Prisma client and TypeScript build metadata.
+/lib/generated/prisma
+*.tsbuildinfo
+
+# Operating-system and editor temporary files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+*.swo

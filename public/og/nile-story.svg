@@ -1,0 +1,10 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0E271F"/>
+  <rect x="66" y="62" width="1068" height="506" rx="30" fill="#143A35" stroke="#D9B35A" stroke-width="2"/>
+  <text x="108" y="194" fill="#F7F3E8" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="4">THE NILE STORY</text>
+  <text x="108" y="286" fill="#F7F3E8" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="800">From river soil</text>
+  <text x="108" y="370" fill="#D9B35A" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="800">to global botanical</text>
+  <text x="108" y="446" fill="#EAE6D9" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">A story of heritage, agriculture and export excellence</text>
+  <rect x="108" y="480" width="300" height="10" rx="5" fill="#D9B35A"/>
+  <circle cx="950" cy="184" r="110" fill="#D9B35A" fill-opacity="0.18"/>
+</svg>

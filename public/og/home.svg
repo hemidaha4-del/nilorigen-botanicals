@@ -1,0 +1,11 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0F2A26"/>
+  <rect x="72" y="76" width="1056" height="478" rx="32" fill="#163B36" stroke="#D9B35A" stroke-width="2"/>
+  <circle cx="181" cy="178" r="90" fill="#D9B35A" fill-opacity="0.15"/>
+  <path d="M112 404C170 325 234 287 301 267C382 243 463 255 530 315C600 378 684 373 760 338C825 308 893 297 986 322V426H112V404Z" fill="#D9B35A" fill-opacity="0.2"/>
+  <text x="132" y="214" fill="#F7F3E8" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="5">NILORIGEN BOTANICALS</text>
+  <text x="132" y="302" fill="#F7F3E8" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800">Premium Egyptian</text>
+  <text x="132" y="382" fill="#D9B35A" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800">Herbs &amp; Essential Oils</text>
+  <text x="132" y="456" fill="#EAE6D9" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">From the Nile Valley to global export markets</text>
+  <rect x="132" y="490" width="256" height="10" rx="5" fill="#D9B35A"/>
+</svg>

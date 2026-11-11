@@ -1,0 +1,25 @@
+{
+  "name": "Nilorigen Botanicals",
+  "short_name": "Nilorigen",
+  "description": "Premium Egyptian herbs, aromatic plants, and essential oils for global export.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8F6F0",
+  "theme_color": "#073B2A",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

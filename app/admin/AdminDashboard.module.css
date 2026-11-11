@@ -1,0 +1,140 @@
+.themeRoot,
+.themeRoot :global(*) {
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.themeRoot[data-theme='dark'] {
+  color-scheme: dark;
+  background-color: #041a13;
+  color: #e6ede8;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-white']) {
+  background-color: #0f241c;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-[#F5F3ED]']) {
+  background-color: #041a13;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-[#F8F7F2]']),
+.themeRoot[data-theme='dark'] :global([class~='bg-[#F8F7F2]/70']) {
+  background-color: #0b1e17;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-[#D4AF37]/[0.08]']),
+.themeRoot[data-theme='dark'] :global([class~='bg-[#D4AF37]/[0.10]']) {
+  background-color: rgb(212 175 55 / 12%);
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-amber-50']) {
+  background-color: #302813;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-emerald-50']) {
+  background-color: #102a20;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-red-50']) {
+  background-color: #311a19;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-slate-100']) {
+  background-color: #1b3027;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='text-[#17372B]']),
+.themeRoot[data-theme='dark'] :global([class~='text-[#073B2A]']) {
+  color: #e6ede8;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='text-[#9A7920]']),
+.themeRoot[data-theme='dark'] :global([class~='text-[#806314]']) {
+  color: #e2c76d;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='text-slate-300']),
+.themeRoot[data-theme='dark'] :global([class~='text-slate-400']),
+.themeRoot[data-theme='dark'] :global([class~='text-slate-500']),
+.themeRoot[data-theme='dark'] :global([class~='text-slate-600']),
+.themeRoot[data-theme='dark'] :global([class~='text-slate-700']) {
+  color: #aab9b1;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='text-amber-700']),
+.themeRoot[data-theme='dark'] :global([class~='text-amber-800']) {
+  color: #e8c86d;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='text-emerald-700']),
+.themeRoot[data-theme='dark'] :global([class~='text-emerald-800']) {
+  color: #7ec9a0;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='text-red-700']),
+.themeRoot[data-theme='dark'] :global([class~='text-red-800']) {
+  color: #f0a29b;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='border-slate-100']),
+.themeRoot[data-theme='dark'] :global([class~='border-slate-200']),
+.themeRoot[data-theme='dark'] :global([class~='border-slate-300']),
+.themeRoot[data-theme='dark'] :global([class~='border-amber-200']),
+.themeRoot[data-theme='dark'] :global([class~='border-emerald-200']) {
+  border-color: #1f3e32;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='border-red-200']),
+.themeRoot[data-theme='dark'] :global([class~='border-red-300']) {
+  border-color: #63302c;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='border-[#073B2A]/30']) {
+  border-color: #1f3e32;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='divide-slate-100']) {
+  --tw-divide-color: #1f3e32;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='hover:bg-[#F8F7F2]/70']:hover) {
+  background-color: #142b21;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='hover:bg-slate-100']:hover) {
+  background-color: #1b3027;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='hover:bg-red-50']:hover) {
+  background-color: #40201e;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='hover:bg-emerald-50']:hover) {
+  background-color: #173a2b;
+}
+
+.themeRoot[data-theme='dark'] :global(input),
+.themeRoot[data-theme='dark'] :global(textarea),
+.themeRoot[data-theme='dark'] :global(select) {
+  background-color: #0b1e17;
+  color: #e6ede8;
+}
+
+.themeRoot[data-theme='dark'] :global(input::placeholder),
+.themeRoot[data-theme='dark'] :global(textarea::placeholder) {
+  color: #81938a;
+}
+
+.themeRoot[data-theme='dark'] :global([class~='bg-[#D4AF37]'][class~='text-[#073B2A]']) {
+  color: #073b2a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .themeRoot,
+  .themeRoot :global(*) {
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+}
